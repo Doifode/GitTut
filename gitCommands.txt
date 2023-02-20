@@ -35,7 +35,12 @@ git diff --staged
 12.To direct commit without going in to staging area 
 git commit -a -m "commit to pass"
 
-13.
+13.To remove or delte file 
+git rm <file_name>
+
+14. To remove file from  staging area
+git rm --cached <file_name>
+
 
 
 
