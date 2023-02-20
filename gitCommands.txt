@@ -26,7 +26,16 @@ git log
 9. To know perticular number of changes and which kind of changes are made 
 git log -p -<number>
 
-10. 
+10. To check different between the preveous file and unstaged file 
+git diff 
+
+11. To check different between last commited file and current unstaged file
+git diff --staged
+
+12.To direct commit without going in to staging area 
+git commit -a -m "commit to pass"
+
+13.
 
 
 
