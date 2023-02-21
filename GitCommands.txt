@@ -57,3 +57,6 @@ git checkout <branch_name>
 
 19. To merge branch  
 git merge <branch_name>
+
+
+
