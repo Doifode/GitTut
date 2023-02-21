@@ -58,5 +58,10 @@ git checkout <branch_name>
 19. To merge branch  
 git merge <branch_name>
 
+20. To create and switch to that branch
+git checkout -b <branch_name>
+
+21.
+
 
 
