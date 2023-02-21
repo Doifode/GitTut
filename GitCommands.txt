@@ -37,3 +37,23 @@ git diff
 
 13. To see the difference between the preveous staging area of file  and current 
 git  diff -staged 
+
+14. To remove/delete file 
+git rm <file_name>
+
+15. To remove file from staging area
+git rm --cached <file_name>
+
+16. To ignore files from pulling and pushing from git steps
+1. Create .gitignore file
+2. Write files that your dont want to pull or push 
+3. you can also use extension name to prevent from pulling and pushing
+
+17. To create new  branch
+git branch <branch_name>
+
+18. To go in any branch
+git checkout <branch_name>
+
+19. To merge branch  
+git merge <branch_name>
