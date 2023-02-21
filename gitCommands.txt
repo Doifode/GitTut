@@ -38,7 +38,7 @@ git commit -a -m "commit to pass"
 13.To remove or delte file 
 git rm <file_name>
 
-14. To remove file from  staging area
+14. To remove file from  staging area not deleting 
 git rm --cached <file_name>
 
 
