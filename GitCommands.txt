@@ -1,0 +1,39 @@
+1. To set usename and email
+git config --global user.name "<username >
+git config --global  user.email <email
+
+2. To Check current status of our file
+git status
+
+3. To get short form of status 
+git status -s
+
+4. To add file to staging area
+git add <file_name>
+
+5. To add all file at same time to staging  area 
+git add -A
+
+6. To commit the changes 
+git commit -m "changes to pass "
+
+7. To commit without going to staging area
+git commit -a -m "commit to pass "
+
+8. To recover the code from last commit area
+git checkout <file_name>
+
+9. To get all file code recover at same time
+git checkout -f
+
+10. To know about all commits and changes 
+git log
+
+11. To know about last perticuler changes
+git log -p -<number>
+
+12. To know see the difference  between preveous file and modified  file
+git diff
+
+13. To see the difference between the preveous staging area of file  and current 
+git  diff -staged 
